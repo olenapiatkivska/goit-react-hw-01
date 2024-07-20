@@ -1,0 +1,59 @@
+.profileWrapp {
+  width: 360px;
+  border: 3px solid #121111;
+  border-radius: 10px;
+  margin: 40px auto 50px;
+}
+.profileWrappImg {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 10px;
+  background-color: rgba(245, 244, 244, 0.79);
+}
+.profileImg {
+  width: 160px;
+  border-radius: 50%;
+  background-color: #000000c6;
+  margin-bottom: 15px;
+}
+.profileName {
+  font-size: 24px;
+  font-weight: 700;
+}
+.profileTag {
+  font-size: 20px;
+  font-weight: 400;
+  color: #a6a3a3;
+}
+.profileLocation {
+  font-size: 20px;
+  font-weight: 400;
+  color: #a6a3a3;
+}
+.profileList {
+  display: flex;
+  border-top: 3px solid #858282;
+  align-items: center;
+  justify-content: center;
+  background-color: #c5bfbf;
+}
+.profileItem {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-right: 3px solid #858282;
+  width: 100px;
+  padding: 5px;
+}
+.profileItem:last-child {
+  border-right: none;
+}
+.profileText {
+  font-size: 18px;
+}
+.profileStats {
+  font-size: 18px;
+  font-weight: 600;
+}
